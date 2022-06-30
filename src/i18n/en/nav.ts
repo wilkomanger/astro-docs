@@ -13,8 +13,6 @@ export default [
 	{ text: 'Installation', slug: 'install/auto', key: 'install' },
 	{ text: 'Editor Setup', slug: 'editor-setup', key: 'editor-setup' },
 	{ text: 'Migration Guide', slug: 'migrate', key: 'migrate' },
-	// REMOVE "Built with Astro": (Move into astro.build)
-	{ text: 'Built with Astro', slug: 'integrations/integrations', key: 'integrations/integrations' },
 	{ text: 'Astro vs. X', slug: 'comparing-astro-vs-other-tools', key: 'comparing-astro-vs-other-tools' },
 
 	{ text: 'Core Concepts', header: true, type: 'learn', key: 'coreConcepts' },

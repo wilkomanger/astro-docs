@@ -7,7 +7,6 @@ export default NavDictionary({
 	install: 'Installation',
 	'editor-setup': 'Editor-Einrichtung',
 	'migrate': 'Migrations-Anleitung',
-	'integrations/integrations': 'Mit Astro gebaut',
 	'comparing-astro-vs-other-tools': 'Astro vs. X',
 
 	// Core Concepts

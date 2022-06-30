@@ -84,8 +84,6 @@ Astroサイトの主要なコンセプトとパターンの例をご覧くださ
 
 🧰 [サイトショーケース](https://astro.build/showcase)を見て、インスピレーションを得る。
 
-……[統合機能の使い方ガイド](/ja/integrations/integrations/)をご覧ください。
-
 
 
 ## コミュニティに参加する

@@ -6,7 +6,6 @@ export default NavDictionary({
 	'install': '安装',
 	'editor-setup': '编辑器设置',
 	'migrate': '迁移指南',
-	'integrations/integrations': '集成',
 	'comparing-astro-vs-other-tools': 'Astro 与其他工具比较',
 	'coreConcepts': '核心理念',
 	'core-concepts/partial-hydration': '极简耦合',

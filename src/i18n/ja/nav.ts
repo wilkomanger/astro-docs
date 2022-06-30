@@ -6,7 +6,6 @@ export default NavDictionary({
 	install: 'インストール',
 	'editor-setup': "エディタのセットアップ",
 	migrate: 'アップグレードガイド',
-	'integrations/integrations': 'Astroで構築',
 	'comparing-astro-vs-other-tools': 'Astro vs. X',
 
 	// Core Concepts
