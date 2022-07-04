@@ -10,11 +10,17 @@ i18nReady: true
 
 ## What is Astro?
 
-Astro is a **web framework** for building **fast**, **content-focused** websites. 
+Astro is an **all-in-one** **web framework** for building **fast**, **content-focused** websites. 
 
-Astro was designed for building content-focused websites (think marketing, publishing, etc.) over more complex dynamic web applications. This focus makes Astro unique and allows us to ship powerful features like [Selective Hydration](/en/concepts/selective-hydration/) and [Multi-Framework Support](/en/concepts/multi-framework-support/) that other web frameworks cannot. The same site built in Astro can [load 40% faster with 90% less JavaScript](https://twitter.com/t3dotgg/status/1437195415439360003) than the most popular React framework.
+Some feature highlights are:
 
-Astro comes out-of-the-box with everything that you need to build a fast, modern website. Extend Astro with over [100+ integrations](https://astro.build/integrations/) like [React](https://www.npmjs.com/package/@astrojs/react), [Svelte](https://www.npmjs.com/package/@astrojs/svelte), [Vue](https://www.npmjs.com/package/@astrojs/vue), [Tailwind CSS](https://www.npmjs.com/package/@astrojs/tailwind), [MDX](https://www.npmjs.com/package/@astrojs/mdx), [images](https://www.npmjs.com/package/@astrojs/images), and more. [Connect your favorite CMS](https://astro.build/integrations/) or [deploy to your favorite host](https://www.npmjs.com/package/@astrojs/netlify) with just a single command.
+- Zero JavaScript in the browser, by default.
+- Island hydration
+- THING
+- THING
+- THING
+- THING
+- THING
 
 Considering Astro for your next project? Check out the [Why Astro](/en/concepts/why-astro/) breakdown to learn more. 
 

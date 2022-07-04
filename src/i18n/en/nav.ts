@@ -18,9 +18,8 @@ export default [
 	{ text: 'Core Concepts', header: true, type: 'learn', key: 'coreConcepts' },
 	{ text: 'Why Astro', slug: 'concepts/why-astro', key: 'concepts/why-astro' },
 	{ text: 'MPA vs. SPA', slug: 'concepts/mpa-vs-spa', key: 'concepts/mpa-vs-spa' },
-	{ text: 'Selective Hydration', slug: 'concepts/selective-hydration', key: 'concepts/selective-hydration' },
-	{ text: 'Islands Architecture', slug: 'concepts/islands-architecture', key: 'concepts/islands-architecture' },
-	{ text: 'Technical Explanation', slug: 'concepts/technical-explanation', key: 'concepts/technical-explanation' },
+	{ text: 'Islands', slug: 'concepts/islands-architecture', key: 'concepts/islands-architecture' },
+	{ text: 'Technical Architecture', slug: 'concepts/technical-explanation', key: 'concepts/technical-explanation' },
 
 	{ text: 'Basics', header: true, type: 'learn', key: 'basics' },
 	{ text: 'Project Structure', slug: 'core-concepts/project-structure', key: 'core-concepts/project-structure' },

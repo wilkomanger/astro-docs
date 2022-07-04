@@ -1,6 +1,6 @@
 ---
 layout: ~/layouts/MainLayout.astro
-title: Islands Architecture
+title: Islands
 description: TODO
 i18nReady: true
 setup: |
