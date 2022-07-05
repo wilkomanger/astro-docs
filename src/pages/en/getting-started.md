@@ -12,15 +12,17 @@ i18nReady: true
 
 Astro is an **all-in-one** **web framework** for building **fast**, **content-focused** websites. 
 
-Some feature highlights are:
+#### Key Features
 
-- Zero JavaScript in the browser, by default.
-- Island hydration
-- THING
-- THING
-- THING
-- THING
-- THING
+<br/>
+
+- **Server runtime:** Astro runs on the server, generating fast HTML.
+- **Use your favorite UI framework:** React, Preact, Vue, Svelte, Lit, and more.
+- **No JavaScript runtime:** Astro includes zero bytes of JS, by default.
+- **Selective hydration:** Individual components only load if needed.
+- **Ultra-granular performance:** If a component is never visible, it never loads.
+- **Filesystem routing:** Your codebase defines your routes.
+- **Extensible:** Extend Astro with 100+ public integrations.
 
 Considering Astro for your next project? Check out the [Why Astro](/en/concepts/why-astro/) breakdown to learn more. 
 
