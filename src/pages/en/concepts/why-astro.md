@@ -5,30 +5,32 @@ description: DESCRIPTION
 i18nReady: true
 ---
 
-Astro is an **all-in-one** **web framework** for building  **fast**, **content-focused websites.**
+Astro is an **all-in-one** **web framework** for building  **fast** **content-focused websites.**
 
-Why choose Astro over any other web framework? Here are six core design principles to help explain why Astro exists and when Astro may be the best choice for your project or team. 
+Why choose Astro over another web framework? Here are six core design principles to help explain why we built Astro, the problems that it exists to solve, and why Astro may be the best choice for your project or team.
+
+#### Astro is...
 
 <br />
 
-1. [**Content-focused**](#) -- Designed to build fast websites, not complex applications.
-2. [**Extremely fast**](#) -- Ships 0 bytes of JavaScript by default.
-3. [**Unapologetically server-rendered**](#) -- Do as much work on the server as possible.
-4. [**Easy to learn, easy to use**](#) -- Minimal API designed for easy onboarding.
+1. [**Content-focused**](#) -- Designed to build content-rich websites over not complex applications.
+2. [**Unapologetically server-rendered**](#) -- Websites are better when they do more work on the server.
+3. [**Extremely fast**](#) -- Every Astro website ships zero bytes of JavaScript by default.
+4. [**Easy to learn, easy to use**](#) -- You don't need to be a JavaScript expert to build with Astro.
 5. [**Fully-featured, but flexible**](#) -- Extend Astro with over 100+ integrations and UI frameworks.
 6. [**Fast by default**](#) -- It should be hard to build a slow website in Astro.
 
-<br />
-
-If any of these sound interesting to you, give Astro a try!
+<!-- 4. [**Easy to learn, easy to use**](#) -- All youAstro was designed to support beginners and experts alike. -->
 
 ## Content-focused
 
-Astro was designed and optimized around a single use-case: content. This includes marketing sites, publishing sites, blogs, portfolios, and most ecommerce sites. Basically, Astro is best at building websites that mainly exist to display content to the user for consumption and/or interaction.
+Astro was designed and optimized around a single use-case: content. We can proudly say that Astro is *the best framework* for building marketing sites, publishing sites, blogs, portfolios, and even some ecommerce sites. Astro excels at building content-rich websites.
 
 Most web frameworks focus on the other side of the spectrum: web applications. This includes things like interactive dashboards, inboxes, social networks, todo lists, and even full web apps running in your browser like Figma and Ping. 
 
-This focus on content over applications is surprisingly unique for a web framework. But it completely defines Astro as a framework, and is probably the most important thing to understand about Astro. By prioritizing for content, Astro is able to make tradeoffs and deliver features for this use-case where other frameworks cannot. 
+If you are working with a ton of interactive data or complex logged-in user experiences, then Astro probably isn't the right choice. **And that's okay!** We are extremely proud of our laser-focus on content because it allows us to make unqiue tradeoffs for our users that other frameworks simply cannot.
+
+<!-- This focus on content over applications is surprisingly unique for a web framework. But it completely defines Astro as a framework, and is probably the most important thing to understand about Astro. By prioritizing for content, Astro is able to make tradeoffs and deliver features for this use-case where other frameworks cannot.  -->
 
 
 <!-- Astro features like Selective Hydration and Zero Lock-in don't make sense in rich web applications. But, they make a ton of sense in most sites that, when you really look closely, only require sprinkles of interactivity. Astro focuses on the latter to deliver a better user experience with a great developer experience as well. -->
@@ -41,22 +43,39 @@ This focus on content over applications is surprisingly unique for a web framewo
 There's nothing wrong with those other frameworks! If you are building a rich web application or dealing with a lot of dynamic or interactive data, then a more traditional web framework like Next.js, Nuxt, or SvelteKit would probably be a great pick. However, after learning about Astro, many people realize they are in the other camp --- the "content" camp --- and Astro was designed for that!
 ::: -->
 
+## Unapologetically server-rendered
 
-## Extremely fast
+Most web frameworks use **SPA Architecture**, which stands for Single-Page Application. Next.js, SvelteKit, Nuxt, Remix, and most other modern JavaScript frameworks use this architecture because it allows you to easily build incredibly complex and advanced web applications with JavaScript. However, treating your website as an application comes with complexity and performance tradeoffs that aren't always ideal.
 
-Every web framework claims to be fast, but very few actually deliver on this point like Astro. 
+Astro instead leverages an **MPA Architecture**, which stands for Multi-Page Application. This architecture is decades-old, and optimal for content-rich websites because it shifts work to the server and out of your users browser. Astro websites load faster -- especially on low-powered devices and mobile phones -- because they just do less work on your users device.
 
-To start, Astro strips all unused JavaScript from your website automatically. When you build with Astro, you don't ship a single byte of unnecessary JavaScript to the user. Even if you use a JavaScript UI framework like React or Vue, your users will only ever see the fast, static, server-rendered HTML and CSS.
+📚 [Read more about MPA Architecture and why Astro was built on it.](/en/concepts/mpa-vs-spa/)
 
-What happens when you need to add an interactive component to your page? Most web frameworks will be forced to download and run an entire page worth of JavaScript just for that one component. Astro websites only pay to load that one, interactive component. 
+<!-- We should use this somehow: https://youtu.be/2ZEMb_H-LYE?t=8163 -->
 
-The results speak for themselves: A website built in Astro can [load 40% faster with 90% less JavaScript](https://twitter.com/t3dotgg/status/1437195415439360003) than the same site built with the most popular React framework.
+<!-- To start, Astro strips all unused JavaScript from your website automatically. When you build with Astro, you don't ship a single byte of unnecessary JavaScript to the user. Even if you use a JavaScript UI framework like React or Vue, your users will only ever see the fast, static, server-rendered HTML and CSS. -->
+
+<!-- What happens when you need to add an interactive component to your page? Most web frameworks will be forced to download and run an entire page worth of JavaScript just for that one component. Astro websites only pay to load that one, interactive component.  -->
 
 <!-- This process is called Selective Hydration, and very few web frameworks besides Astro support it today. -->
 
 
 
-## Unapologetically server-rendered
+## Extremely fast
+
+Astro's magic is that it combines the two points above -- a content-focus with an MPA architecture -- to deliver features and make design tradeoffs for our users that no other framework can. An Astro website can [load 40% faster with 90% less JavaScript](https://twitter.com/t3dotgg/status/1437195415439360003) than the same site built with the most popular React SPA framework.
+
+This is so important because for content-focused websites, performance is everything: 
+
+- Every 100ms faster → 1% more conversions ([Mobify](https://web.dev/why-speed-matters/), earning +$380,000/yr)
+- 50% faster → 12% more sales ([AutoAnything](https://www.digitalcommerce360.com/2010/08/19/web-accelerator-revs-conversion-and-sales-autoanything/))
+- 20% faster → 10% more conversions ([Furniture Village](https://www.thinkwithgoogle.com/intl/en-gb/marketing-strategies/app-and-mobile/furniture-village-and-greenlight-slash-page-load-times-boosting-user-experience/))
+- 40% faster → 15% more sign-ups ([Pinterest](https://medium.com/pinterest-engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7))
+- 850ms faster → 7% more conversions ([COOK](https://web.dev/why-speed-matters/))
+- 1 seconds slowness → 10% less users ([BBC](https://www.creativebloq.com/features/how-the-bbc-builds-websites-that-scale))
+
+Every web framework claims to be fast, but very few deliver on this point like Astro. **Don't just take our word for it:** Watch Astro's performance story leave Ryan Carniato (creator of Solid.js and Marko) [absolutely speechless](https://youtu.be/2ZEMb_H-LYE?t=8163).
+<!-- ## Unapologetically server-rendered
 
 Astro fully embraces the benefits (and tradeoffs) of server rendering.
 
@@ -66,7 +85,7 @@ Modern JavaScript application frameworks like Next.js are designed to run **isom
 
 Astro isn't like other frameworks. Instead of building you an SPA, Astro builds you an MPA, or Multi Page Application. MPAs rely on server routing and rendering to do most of the work, with the user loading HTML from your site as they navigate from page to page.
 
-MPAs have some serious benefits for the content-focused website (it's fast!) while SPAs are usually a better fit for more dynamic web applications. This is why Astro's content focus is so important to understand: MPAs are a better fit for Astro, 
+MPAs have some serious benefits for the content-focused website (it's fast!) while SPAs are usually a better fit for more dynamic web applications. This is why Astro's content focus is so important to understand: MPAs are a better fit for Astro,  -->
 
 <!-- and the tradeoffs that Astro can make happily.  -->
 

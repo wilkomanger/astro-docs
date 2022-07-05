@@ -8,23 +8,22 @@ description: A basic intro to Astro.
 i18nReady: true
 ---
 
-## What is Astro?
+#### What is Astro?
 
-Astro is an **all-in-one** **web framework** for building **fast**, **content-focused** websites. 
+Astro is an **all-in-one** **web framework** for building **fast** **content-focused** websites. 
 
 #### Key Features
 
 <br/>
 
-- **Server runtime:** Astro runs on the server, generating fast HTML.
-- **Use your favorite UI framework:** React, Preact, Vue, Svelte, Lit, and more.
-- **No JavaScript runtime:** Astro includes zero bytes of JS, by default.
-- **Selective hydration:** Individual components only load if needed.
-- **Ultra-granular performance:** If a component is never visible, it never loads.
-- **Filesystem routing:** Your codebase defines your routes.
-- **Extensible:** Extend Astro with 100+ public integrations.
+- **Supports your favorite UI library:** React, Preact, Vue, Svelte, Lit, and more.
+- **Zero JavaScript required:** Astro renders HTML on the server, not the browser.
+- **Component islands:** Hydrate individual UI components with JavaScript, as needed.
+- **Selective hydration:** If a component is never visible, it never loads.
+- **Make it your own:** Use Tailwind, MDX, and 100+ other drop-in integrations.
+- **Modern DX:** TypeScript, file-based routing, image optimizations, and more.
 
-Considering Astro for your next project? Check out the [Why Astro](/en/concepts/why-astro/) breakdown to learn more. 
+Sounds interesting? Check out our detailed [Why Astro](/en/concepts/why-astro/) breakdown to learn more.
 
 
 ## Try Astro in your browser
