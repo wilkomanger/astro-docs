@@ -14,11 +14,9 @@ Astro is an **all-in-one** **web framework** for building **fast** **content-foc
 
 #### Key Features
 
-<br/>
-
-- **Supports your favorite UI library:** React, Preact, Vue, Svelte, Lit, and more.
-- **Zero JavaScript required:** Astro renders HTML on the server, not the browser.
-- **Component islands:** Hydrate individual UI components with JavaScript, as needed.
+- **Bring your favorite framework:** React, Preact, Vue, Solid, Svelte & Lit are all supported.
+- **Zero JavaScript, by default:** Astro renders HTML on the server, not the browser.
+- **Component islands:** Hydrate individual components on the page as needed.
 - **Selective hydration:** If a component is never visible, it never loads.
 - **Make it your own:** Use Tailwind, MDX, and 100+ other drop-in integrations.
 - **Modern DX:** TypeScript, file-based routing, image optimizations, and more.

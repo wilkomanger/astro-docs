@@ -5,14 +5,14 @@ description: DESCRIPTION
 i18nReady: true
 ---
 
-When we talk about Astro, we are really talking about a few different things:
+We often talk about Astro as a single thing, but Astro is really made up of several different layers working together:
 
 - The Astro language (`.astro` files)
 - The Astro compiler
 - The Astro runtime
 - The Astro ecosystem (integrations, themes, etc.)
 
-Together, these four layers combine to form a larger piece of software that we refer to as **The Astro Platform**. Unless specified otherwise, the word "Astro" alone is usually referring to the larger platform.
+Together, these four layers combine to form a larger piece of software that we refer to as **The Astro Platform**. Unless specified otherwise, the word "Astro" is usually referring to this larger platform.
 
 ## The Astro language
 

@@ -13,13 +13,12 @@ export default [
 	{ text: 'Installation', slug: 'install/auto', key: 'install' },
 	{ text: 'Editor Setup', slug: 'editor-setup', key: 'editor-setup' },
 	{ text: 'Migration Guide', slug: 'migrate', key: 'migrate' },
-	{ text: 'Astro vs. X', slug: 'comparing-astro-vs-other-tools', key: 'comparing-astro-vs-other-tools' },
 
 	{ text: 'Core Concepts', header: true, type: 'learn', key: 'coreConcepts' },
 	{ text: 'Why Astro', slug: 'concepts/why-astro', key: 'concepts/why-astro' },
 	{ text: 'MPA vs. SPA', slug: 'concepts/mpa-vs-spa', key: 'concepts/mpa-vs-spa' },
-	{ text: 'Islands', slug: 'concepts/islands-architecture', key: 'concepts/islands-architecture' },
-	{ text: 'Technical Architecture', slug: 'concepts/technical-explanation', key: 'concepts/technical-explanation' },
+	{ text: 'Astro Islands', slug: 'concepts/islands-architecture', key: 'concepts/islands-architecture' },
+	{ text: 'How Astro Works', slug: 'concepts/technical-explanation', key: 'concepts/technical-explanation' },
 
 	{ text: 'Basics', header: true, type: 'learn', key: 'basics' },
 	{ text: 'Project Structure', slug: 'core-concepts/project-structure', key: 'core-concepts/project-structure' },
