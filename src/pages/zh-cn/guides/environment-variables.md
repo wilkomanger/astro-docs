@@ -74,7 +74,7 @@ const data = fetch(`${import.meta.env.PUBLIC_POKEAPI}/pokemon/squirtle`);
 
 ## TypeScript 智能提示
 
-默认情况，Vite 在 `vite/client.d.ts` 中为 `import.meta.env` 提供类型定义。
+默认情况，Vite 在 `astro/client.d.ts` 中为 `import.meta.env` 提供类型定义。
 
 虽然你可以在 `.env.[模式]` 文件中定义更多的自定义环境变量，但你可能想为自行定义的环境变量提供 TypeScript 的智能提示。这些变量的前缀是 `PUBLIC_`。
 

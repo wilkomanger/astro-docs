@@ -30,7 +30,7 @@ Algunas opciones de configuración de TypeScript requieren atención especial en
     // Habilita una transpilación más estricta para obtener mejores resultados.
     "isolatedModules": true,
     // Agrega definiciones de tipo para nuestro motor de ejecución Vite.
-    "types": ["vite/client"]
+    "types": ["astro/client"]
   }
 }
 ```

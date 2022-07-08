@@ -75,7 +75,7 @@ Debido a que Vite reemplaza estáticamente a `import.meta.env`, no puedes accede
 
 ## IntelliSense para TypeScript
 
-De forma predeterminada, Vite proporciona una definición de tipos para `import.meta.env` en `vite/client.d.ts`.
+De forma predeterminada, Vite proporciona una definición de tipos para `import.meta.env` en `astro/client.d.ts`.
 
 Si bien puedes definir más variables de entorno personalizadas en los archivos `.env.[mode]`, es posible que desees obtener TypeScript IntelliSense para las variables de entorno definidas por el usuario que tienen el prefijo `PUBLIC_`.
 

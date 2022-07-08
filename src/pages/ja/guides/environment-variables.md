@@ -75,7 +75,7 @@ Viteは`import.meta.env`を静的に置き換えるので、`import.meta.env[key
 
 ## TypeScriptのインテリセンス
 
-デフォルトで、Viteは`vite/client.d.ts`の中で`import.meta.env`の型定義を提供します。
+デフォルトで、Viteは`astro/client.d.ts`の中で`import.meta.env`の型定義を提供します。
 
 `.env.[mode]`ファイルではより多くのカスタム環境変数を定義できますが、`PUBLIC_`をプレフィックスとするユーザーが定義した環境変数のTypeScriptインテリセンスを取得したいと思うかもしれません。
 

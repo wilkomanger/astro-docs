@@ -71,7 +71,7 @@ _Ne vous inquiétez pas si votre navigateur ne supporte pas `import.meta.env`, V
 
 ## Autocomplétion pour TypeScript
 
-Par défaut, Vite fournit des définitions de type pour `import.meta.env` dans `vite/client.d.ts`.
+Par défaut, Vite fournit des définitions de type pour `import.meta.env` dans `astro/client.d.ts`.
 
 Vous pouvez aussi définir d'autres variables d'environnement dans les fichiers `.env.[mode]`, mais vous voulez sûrement accéder à l'autocomplétion pour les variables d'environnement définies par l'utilisateur qui commencent par `PUBLIC_`.
 
